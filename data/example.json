@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Guitar",
+    "type": "String",
+    "origin": "Spain",
+    "is_acoustic": true
+  },
+  {
+    "id": 2,
+    "name": "Piano",
+    "type": "Keyboard",
+    "origin": "Italy",
+    "has_pedals": true
+  },
+  {
+    "id": 3,
+    "name": "Trumpet",
+    "type": "Brass",
+    "origin": "Germany",
+    "valve_count": 3
+  },
+  {
+    "id": 4,
+    "name": "Drums",
+    "type": "Percussion",
+    "origin": "Various",
+    "component_count": 5
+  },
+  {
+    "id": 5,
+    "name": "Violin",
+    "type": "String",
+    "origin": "Italy",
+    "bow_included": true
+  }
+]

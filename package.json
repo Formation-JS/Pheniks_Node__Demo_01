@@ -1,0 +1,25 @@
+{
+  "name": "demo-node-01",
+  "version": "0.0.1",
+  "description": "Demo NodeJS pour Phéniks",
+  "homepage": "https://github.com/Formation-JS/Pheniks_Node__Demo_01#readme",
+  "bugs": {
+    "url": "https://github.com/Formation-JS/Pheniks_Node__Demo_01/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Formation-JS/Pheniks_Node__Demo_01.git"
+  },
+  "license": "ISC",
+  "author": "Aurelien St",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "dev": "nodemon --env-file=.env index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
