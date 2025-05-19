@@ -1,4 +1,5 @@
 import exampleService from './services/example.service.js';
+import config from './config.json' with { type: 'json' };
 
 
 console.log('Hello Phéniks !');
@@ -14,6 +15,9 @@ console.log('Hello Phéniks !');
 
 const NODE_ENV = process.env.NODE_ENV;
 console.log(`Env : ${NODE_ENV}`);
+
+//! Utilisation d'un fichier json en import
+console.log(config.name);
 
 //! Utilisation d'un module
 exampleService.readFile().then(line => console.log(line));
